@@ -75,6 +75,7 @@ app.layout = html.Div([
                 {'label': '7 - mpg', 'value': 7}
             ],
             value=1,
+            clearable=False,
             style={"width": "50%"}
         )
     ], style={'width': '48%', 'display': 'inline-block'}),
@@ -91,6 +92,7 @@ app.layout = html.Div([
                 {'label': '7 - mpg', 'value': 7}
             ],
             value=2,
+            clearable=False,
             style={"width": "50%"}
         )
     ], style={'width': '48%', 'display': 'inline-block'}),
@@ -173,7 +175,7 @@ def update_graph(xaxis_name, yaxis_name):
                                 hovermode='closest')}
 
 if __name__ == '__main__':
-    app.run_server(debug=False, host='0.0.0.0', port=80)
+    app.run_server(debug=False, host='0.0.0.0', port=5080)
 
 
 # @app1.route('/') https://34.229.102.89:8050/  https://34.229.102.89:5000/
