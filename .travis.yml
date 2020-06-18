@@ -9,7 +9,7 @@ before_install:
   - pip install docker-compose
   - pip install -U pytest
   - pip install codecov
-  - docker build -t thiagovf1988/docker_aws -f Dockerfile.dev .
+  # - docker build -t thiagovf1988/docker_aws -f Dockerfile.dev .
 
 cache: pip
 
