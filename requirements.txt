@@ -14,3 +14,4 @@ scipy==1.4.1
 matplotlib==3.2.1
 seaborn==0.10.1
 python-dotenv==0.13.0
+gunicorn==20.0.4
