@@ -16,4 +16,4 @@ cache: pip
 install:
   - pip install -r requirements.txt
 script:
-  - docker-compose run app sh -c "python app.py test"
+  - docker-compose run "python app.py"
