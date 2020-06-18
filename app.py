@@ -1,12 +1,9 @@
-# from flask import Flask
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import psycopg2
 from dash.dependencies import Input, Output
-import plotly.graph_objects as go  # (need to pip install plotly==4.4.1)
-
-# app1 = Flask(__name__)
+import plotly.graph_objects as go 
 
 x1 = []
 x2 = []
@@ -176,6 +173,3 @@ def update_graph(xaxis_name, yaxis_name):
 
 if __name__ == '__main__':
     app.run_server(debug=False, host='0.0.0.0', port=80)
-
-
-# @app1.route('/') https://34.229.102.89:8050/  https://34.229.102.89:5000/
