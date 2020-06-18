@@ -11,5 +11,7 @@ COPY . .
 LABEL maintainer="Thiago V. Fernandes <thiagovf.eng@gmail.com>" \
     version="1.0"
 
+EXPOSE 80
+
 ENTRYPOINT python app.py
-CMD [ "app.py" ] --host=0.0.0.0 --port=5000
+CMD [ "app.py" ] --host=0.0.0.0 --port=80

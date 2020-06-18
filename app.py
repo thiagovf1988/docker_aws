@@ -173,7 +173,7 @@ def update_graph(xaxis_name, yaxis_name):
                                 hovermode='closest')}
 
 if __name__ == '__main__':
-    app.run_server(debug=False, host='0.0.0.0', port=5000)
+    app.run_server(debug=False, host='0.0.0.0', port=80)
 
 
 # @app1.route('/') https://34.229.102.89:8050/  https://34.229.102.89:5000/
